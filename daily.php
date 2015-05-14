@@ -2,7 +2,7 @@
 
 define("EOL", PHP_EOL);
 define("LINE_LENGTH", 40);
-define("SPARK", "/usr/local/bin/spark");
+define("SPARK", dirname(__FILE__) . "/spark/spark");
 
 // echo "\e[3;0;0t";   //move to top left
 // echo "\e[8;100;" . LINE_LENGTH . "t"; //reseize window
